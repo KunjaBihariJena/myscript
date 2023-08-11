@@ -1,0 +1,11 @@
+equal   --->> -eq/=
+
+Greater than or equal to -->> -ge
+
+Less than or equal to -->>> -le
+
+not equal--->>> -ne/!=
+
+Greater than --->> -gt
+
+Less than--->>> -lt

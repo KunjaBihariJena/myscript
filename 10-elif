@@ -1,0 +1,20 @@
+#!/bin/bash
+
+
+#elif---->>if else statement
+
+read -p "Enter your marks-------" marks
+
+if [[ $marks -ge 80 ]]
+then
+	echo "first division"
+elif [[ $marks -ge 60 ]]
+then
+	echo "second division"
+elif [[ $marks -ge 40 ]]
+then
+	echo "3rd division"
+else
+	echo "You are fail...."
+fi
+
