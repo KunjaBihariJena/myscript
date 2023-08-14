@@ -1,0 +1,33 @@
+SHELL-GPT (sgpt)
+AI+LINUX---------------->>>>>>>>
+# Lets learn power of shell-gpt
+-> Shell-gpt commands--->
+	#sgpt <your query> (it gives you result of your query)
+	#sgpt --shell ( it gives you the command of your query)
+	#sgpt --code (it gives you the script of your query)
+	#sgpt --execute (
+
+
+
+#how to install shell-gpt in your linux machine
+
+you need
+*python
+*pip
+#sudo apt-get install pip python3 -y
+#pip3 install shell-gpt
+ 
+To check installed shell-gpt--run sgpt
+
+# how to acces chatGPT to your linux server ?
+-->To connect chatGPT to your Linux server, you need a API keys from your chat gpt account.
+
+--->>First got your browser->search openAi.com->login with your account->API->personal->View API keys-> create new secret key-> copy this secret key and placed in a secret place.
+
+--->>got to terminal and config keys creating a environment variable OPENAI_API_KEY
+RUN COMMAND--	#export OPENAI_API_KEY=<PASTE API KEYS>
+
+--->>to check env variable-- #printenv
+
+--->> now you can use shell-gpt with command-
+---#sgpt "<prompt>
